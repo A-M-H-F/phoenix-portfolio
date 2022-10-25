@@ -6,7 +6,7 @@ import Moralis from 'moralis';
 
 const BuyUsACoffeePage: NextPage<IBuyUsACoffee> = (props) => {
   return (
-    <Default pageName="Buy Us A Coffee">
+    <Default pageName="Buy Me A Coffee">
       <BuyUsACoffee {...props} />
     </Default>
   );

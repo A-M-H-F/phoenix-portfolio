@@ -1,5 +1,5 @@
 import { CheckCircleIcon, SettingsIcon } from '@chakra-ui/icons';
-import { Heading, VStack, List, ListIcon, ListItem, Divider, Text, Center } from '@chakra-ui/react';
+import { Heading, VStack, List, ListIcon, ListItem, Divider, Text, Center, Progress } from '@chakra-ui/react';
 
 const Home = () => {
   return (
@@ -11,6 +11,7 @@ const Home = () => {
         <Center>
           <Text color="blue.500">v1.0.0 Features</Text>
         </Center>
+        <Progress size="xs" isIndeterminate colorScheme="red" mb={5} />
       </Heading>
       <List spacing={3}>
         <ListItem>
@@ -45,7 +46,7 @@ const Home = () => {
           <ListIcon as={CheckCircleIcon} color="blue.500" />5 Mainnet & 3 Testnet Chains Support
         </ListItem>
 
-        <Divider mt={2} mb={2} />
+        <Progress size="xs" isIndeterminate colorScheme="teal" mb={5} />
 
         <ListItem>
           <ListIcon as={CheckCircleIcon} color="blue.500" />
@@ -80,7 +81,7 @@ const Home = () => {
           Escrow Feature
         </ListItem>
 
-        <Divider mt={2} mb={2} />
+        <Progress size="xs" isIndeterminate colorScheme="red" mb={5} />
 
         <ListItem>
           <ListIcon as={CheckCircleIcon} color="blue.500" />
@@ -103,7 +104,7 @@ const Home = () => {
           Display NFT Transfers
         </ListItem>
 
-        <Divider mt={2} mb={2} />
+        <Progress size="xs" isIndeterminate colorScheme="teal" mb={5} />
 
         <ListItem>
           <ListIcon as={CheckCircleIcon} color="blue.500" />
