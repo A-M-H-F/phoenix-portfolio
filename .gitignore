@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/.env.local
+.env
 .env.local
-/.next
 .next
+next
