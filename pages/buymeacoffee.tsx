@@ -1,13 +1,13 @@
 import { Default } from 'components/layouts/Default';
 import { GetServerSideProps, NextPage } from 'next';
 import { getSession } from 'next-auth/react';
-import { IBuyUsACoffee, BuyUsACoffee } from 'components/templates/buyusacoffee';
+import { IBuyMeACoffee, BuyMeACoffee } from 'components/templates/buymeacoffee';
 import Moralis from 'moralis';
 
-const BuyUsACoffeePage: NextPage<IBuyUsACoffee> = (props) => {
+const BuyMeACoffeePage: NextPage<IBuyMeACoffee> = (props) => {
   return (
     <Default pageName="Buy Me A Coffee">
-      <BuyUsACoffee {...props} />
+      <BuyMeACoffee {...props} />
     </Default>
   );
 };
@@ -33,4 +33,4 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   };
 };
 
-export default BuyUsACoffeePage;
+export default BuyMeACoffeePage;

@@ -5,7 +5,7 @@ type NativeBalance =
   | {
     balance?: number | any;
   };
-export interface IBuyUsACoffee {
+export interface IBuyMeACoffee {
   balance?: NativeBalance | any;
   error?: string;
 }

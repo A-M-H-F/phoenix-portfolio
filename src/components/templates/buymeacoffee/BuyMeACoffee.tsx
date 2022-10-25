@@ -30,9 +30,9 @@ import {
 } from '@chakra-ui/react'
 import Chains from 'components/modules/Chains/Chains';
 import { CheckCircleIcon } from '@chakra-ui/icons';
-import { IBuyUsACoffee } from './types';
+import { IBuyMeACoffee } from './types';
 
-const BuyUsACoffee: FC<IBuyUsACoffee> = ({ balance }) => {
+const BuyMeACoffee: FC<IBuyMeACoffee> = ({ balance }) => {
   const { chain } = useNetwork();
   const { address } = useAccount();
   const toast = useToast();
@@ -257,4 +257,4 @@ const BuyUsACoffee: FC<IBuyUsACoffee> = ({ balance }) => {
   )
 }
 
-export default BuyUsACoffee;
+export default BuyMeACoffee;

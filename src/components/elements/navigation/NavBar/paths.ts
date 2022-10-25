@@ -169,7 +169,7 @@ const NAV_LINKS: ISubNav[] = [
   },
   {
     label: 'Buy Me A Coffee',
-    href: '/buyusacoffee',
+    href: '/buymeacoffee',
     icon: BiCoffeeTogo,
   }
 ];
