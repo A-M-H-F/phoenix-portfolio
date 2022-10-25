@@ -5,7 +5,7 @@ const links = {
   website: 'https://grow.phoenix-lb.net',
   contact: 'https://grow.phoenix-lb.net/contact',
   linkedin: 'https://www.linkedin.com/in/amhf/',
-  buy: '/buyusacoffee'
+  buy: '/buymeacoffee'
 };
 
 const Footer = () => {
