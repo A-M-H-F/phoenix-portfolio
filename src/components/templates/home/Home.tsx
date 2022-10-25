@@ -111,7 +111,7 @@ const Home = () => {
         </ListItem>
         <ListItem>
           <ListIcon as={CheckCircleIcon} color="blue.500" />
-          Buy Us A Coffee
+          Buy Me A Coffee
         </ListItem>
         <ListItem>
           <ListIcon as={SettingsIcon} color="green.500" />

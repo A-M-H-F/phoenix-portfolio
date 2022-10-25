@@ -157,7 +157,7 @@ const BuyUsACoffee: FC<IBuyUsACoffee> = ({ balance }) => {
           handleSubmit(() => sendTransaction?.())
         }>
           <Center>
-            <Text fontSize='4xl'>Buy Me A Coffee with ({nativeTokenSymbol})</Text>
+            <Text fontSize='2xl'>Buy Me A Coffee with ({nativeTokenSymbol})</Text>
           </Center>
           <Text mt={5}></Text>
           <Center>
