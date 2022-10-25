@@ -80,7 +80,7 @@ const Timer = () => {
       return (
         <>
           <Flex>
-            <Box p="4" borderRadius={5} w='110px' borderWidth={2} borderColor='teal.500'>
+            <Box p="4" borderColor='teal.500'>
               <Text textAlign='center' >
                 {days}
               </Text>
@@ -88,7 +88,7 @@ const Timer = () => {
             </Box>
 
             <Spacer />
-            <Box p="4" w='110px' borderRadius={5} borderWidth={2} borderColor='teal.500'>
+            <Box p="4" borderColor='teal.500'>
               <Text textAlign='center' >
                 {hours}
               </Text>
@@ -97,7 +97,7 @@ const Timer = () => {
 
             <Spacer />
 
-            <Box p="4" w='110px' borderRadius={5} borderWidth={2} borderColor='teal.500'>
+            <Box p="4" borderColor='teal.500'>
               <Text textAlign='center'>
                 {minutes}
               </Text>
@@ -106,7 +106,7 @@ const Timer = () => {
 
             <Spacer />
 
-            <Box p="4" w='110px' borderRadius={5} borderWidth={2} borderColor='teal.500'>
+            <Box p="4" borderColor='teal.500'>
               <Text textAlign='center' >
                 {seconds}
               </Text>
