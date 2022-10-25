@@ -168,7 +168,7 @@ const NAV_LINKS: ISubNav[] = [
     icon: AiOutlineShop,
   },
   {
-    label: 'Buy Us A Coffee',
+    label: 'Buy Me A Coffee',
     href: '/buyusacoffee',
     icon: BiCoffeeTogo,
   }
