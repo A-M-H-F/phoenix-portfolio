@@ -1,0 +1,1815 @@
+[functions]
+
+  [functions._ipx]
+  node_bundler = "nft"
+
+  [functions.___netlify-handler]
+  included_files = [
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/next/dist/compiled/webpack/bundle5.js",
+    "!node_modules/sharp/**/*",
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/next/dist/compiled/webpack/bundle5.js",
+    "!node_modules/sharp/**/*",
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/next/dist/compiled/webpack/bundle5.js",
+    "!node_modules/sharp/**/*",
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/next/dist/compiled/webpack/bundle5.js",
+    "!node_modules/sharp/**/*",
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/next/dist/compiled/webpack/bundle5.js",
+    "!node_modules/sharp/**/*"
+  ]
+  external_node_modules = []
+  node_bundler = "nft"
+
+  [functions.___netlify-odb-handler]
+  included_files = [
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/next/dist/compiled/webpack/bundle5.js",
+    "!node_modules/sharp/**/*",
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/next/dist/compiled/webpack/bundle5.js",
+    "!node_modules/sharp/**/*",
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/next/dist/compiled/webpack/bundle5.js",
+    "!node_modules/sharp/**/*",
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/next/dist/compiled/webpack/bundle5.js",
+    "!node_modules/sharp/**/*",
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/next/dist/compiled/webpack/bundle5.js",
+    "!node_modules/sharp/**/*"
+  ]
+  external_node_modules = []
+  node_bundler = "nft"
+
+  [functions."_api_*"]
+  included_files = [
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/next/dist/compiled/webpack/bundle5.js",
+    "!node_modules/sharp/**/*",
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/next/dist/compiled/webpack/bundle5.js",
+    "!node_modules/sharp/**/*",
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/next/dist/compiled/webpack/bundle5.js",
+    "!node_modules/sharp/**/*",
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/next/dist/compiled/webpack/bundle5.js",
+    "!node_modules/sharp/**/*",
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/next/dist/compiled/webpack/bundle5.js",
+    "!node_modules/sharp/**/*"
+  ]
+  external_node_modules = []
+  node_bundler = "nft"
+
+[build]
+command = "yarn next build"
+publish = ".next"
+
+  [build.environment]
+  NEXT_PRIVATE_TARGET = "server"
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+from = "/_next/data/H1iE5SFv-l_DMCQhkd08g/index.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/H1iE5SFv-l_DMCQhkd08g/balances/erc20.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/H1iE5SFv-l_DMCQhkd08g/balances/nft.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/H1iE5SFv-l_DMCQhkd08g/buyusacoffee.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/H1iE5SFv-l_DMCQhkd08g/lottery/lottery30.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/H1iE5SFv-l_DMCQhkd08g/lottery/lotteryday.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/H1iE5SFv-l_DMCQhkd08g/lottery/lotterymonth.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/H1iE5SFv-l_DMCQhkd08g/lottery/lotteryweek.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/H1iE5SFv-l_DMCQhkd08g/send/sendnativetoken.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/H1iE5SFv-l_DMCQhkd08g/send/sendtokens.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/H1iE5SFv-l_DMCQhkd08g/swap/swaptokens.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/H1iE5SFv-l_DMCQhkd08g/transactions.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/H1iE5SFv-l_DMCQhkd08g/transfers/erc20.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/H1iE5SFv-l_DMCQhkd08g/transfers/nft.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/dJbCTTQPwP76kpi3W0Gt7/index.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/dJbCTTQPwP76kpi3W0Gt7/balances/erc20.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/dJbCTTQPwP76kpi3W0Gt7/balances/nft.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/dJbCTTQPwP76kpi3W0Gt7/buyusacoffee.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/dJbCTTQPwP76kpi3W0Gt7/lottery/lottery30.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/dJbCTTQPwP76kpi3W0Gt7/lottery/lotteryday.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/dJbCTTQPwP76kpi3W0Gt7/lottery/lotterymonth.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/dJbCTTQPwP76kpi3W0Gt7/lottery/lotteryweek.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/dJbCTTQPwP76kpi3W0Gt7/send/sendnativetoken.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/dJbCTTQPwP76kpi3W0Gt7/send/sendtokens.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/dJbCTTQPwP76kpi3W0Gt7/swap/swaptokens.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/dJbCTTQPwP76kpi3W0Gt7/transactions.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/dJbCTTQPwP76kpi3W0Gt7/transfers/erc20.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/dJbCTTQPwP76kpi3W0Gt7/transfers/nft.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/ZNJOtQrn5ehCac759nNTi/index.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/ZNJOtQrn5ehCac759nNTi/balances/erc20.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/ZNJOtQrn5ehCac759nNTi/balances/nft.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/ZNJOtQrn5ehCac759nNTi/buyusacoffee.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/ZNJOtQrn5ehCac759nNTi/lottery/lottery30.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/ZNJOtQrn5ehCac759nNTi/lottery/lotteryday.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/ZNJOtQrn5ehCac759nNTi/lottery/lotterymonth.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/ZNJOtQrn5ehCac759nNTi/lottery/lotteryweek.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/ZNJOtQrn5ehCac759nNTi/send/sendnativetoken.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/ZNJOtQrn5ehCac759nNTi/send/sendtokens.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/ZNJOtQrn5ehCac759nNTi/swap/swaptokens.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/ZNJOtQrn5ehCac759nNTi/transactions.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/ZNJOtQrn5ehCac759nNTi/transfers/erc20.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/ZNJOtQrn5ehCac759nNTi/transfers/nft.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/nzPsbytGI9pBVJ8FzEk4L/index.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/nzPsbytGI9pBVJ8FzEk4L/balances/erc20.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/nzPsbytGI9pBVJ8FzEk4L/balances/nft.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/nzPsbytGI9pBVJ8FzEk4L/buyusacoffee.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/nzPsbytGI9pBVJ8FzEk4L/lottery/lottery30.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/nzPsbytGI9pBVJ8FzEk4L/lottery/lotteryday.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/nzPsbytGI9pBVJ8FzEk4L/lottery/lotterymonth.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/nzPsbytGI9pBVJ8FzEk4L/lottery/lotteryweek.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/nzPsbytGI9pBVJ8FzEk4L/send/sendnativetoken.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/nzPsbytGI9pBVJ8FzEk4L/send/sendtokens.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/nzPsbytGI9pBVJ8FzEk4L/swap/swaptokens.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/nzPsbytGI9pBVJ8FzEk4L/transactions.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/nzPsbytGI9pBVJ8FzEk4L/transfers/erc20.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/nzPsbytGI9pBVJ8FzEk4L/transfers/nft.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/static/*"
+to = "/static/:splat"
+status = 200
+
+[[redirects]]
+from = "/_next/image*"
+to = "/_ipx/w_:width,q_:quality/:url"
+status = 301
+
+  [redirects.query]
+  url = ":url"
+  w = ":width"
+  q = ":quality"
+
+[[redirects]]
+from = "/_ipx/*"
+to = "/.netlify/builders/_ipx"
+status = 200
+
+[[redirects]]
+from = "/cache/*"
+to = "/404.html"
+status = 404
+force = true
+
+[[redirects]]
+from = "/server/*"
+to = "/404.html"
+status = 404
+force = true
+
+[[redirects]]
+from = "/serverless/*"
+to = "/404.html"
+status = 404
+force = true
+
+[[redirects]]
+from = "/trace"
+to = "/404.html"
+status = 404
+force = true
+
+[[redirects]]
+from = "/traces"
+to = "/404.html"
+status = 404
+force = true
+
+[[redirects]]
+from = "/routes-manifest.json"
+to = "/404.html"
+status = 404
+force = true
+
+[[redirects]]
+from = "/build-manifest.json"
+to = "/404.html"
+status = 404
+force = true
+
+[[redirects]]
+from = "/prerender-manifest.json"
+to = "/404.html"
+status = 404
+force = true
+
+[[redirects]]
+from = "/react-loadable-manifest.json"
+to = "/404.html"
+status = 404
+force = true
+
+[[redirects]]
+from = "/BUILD_ID"
+to = "/404.html"
+status = 404
+force = true
+
+[[redirects]]
+from = "/api/auth/:nextauth/*"
+to = "/.netlify/functions/_api_auth_nextauth-SPLAT-handler"
+status = 200
+
+[[redirects]]
+from = "/api/auth/request-message"
+to = "/.netlify/functions/_api_auth_request-message-handler"
+status = 200
+
+[[redirects]]
+from = "/api/getnative"
+to = "/.netlify/functions/_api_getnative-handler"
+status = 200
+
+[[redirects]]
+from = "/api/gettokens"
+to = "/.netlify/functions/_api_gettokens-handler"
+status = 200
+
+[[redirects]]
+from = "/api/*"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/avalanche.png"
+to = "/avalanche.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/bsc.png"
+to = "/bsc.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/coin.png"
+to = "/coin.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/dark.png"
+to = "/dark.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/eth.png"
+to = "/eth.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/fantom.png"
+to = "/fantom.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/favicon.ico"
+to = "/favicon.ico"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/light.png"
+to = "/light.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/meta.png"
+to = "/meta.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/phoenixgrow.svg"
+to = "/phoenixgrow.svg"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/polygon.png"
+to = "/polygon.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/vercel.svg"
+to = "/vercel.svg"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/wallet.png"
+to = "/wallet.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/svg/avalanche.svg"
+to = "/svg/avalanche.svg"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/svg/bsc.svg"
+to = "/svg/bsc.svg"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/svg/coin.svg"
+to = "/svg/coin.svg"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/svg/eth.svg"
+to = "/svg/eth.svg"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/svg/fantom.svg"
+to = "/svg/fantom.svg"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/svg/polygon.svg"
+to = "/svg/polygon.svg"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/tokenimg/1inch.webp"
+to = "/tokenimg/1inch.webp"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/tokenimg/aave.webp"
+to = "/tokenimg/aave.webp"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/tokenimg/ach.webp"
+to = "/tokenimg/ach.webp"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/tokenimg/ankr.webp"
+to = "/tokenimg/ankr.webp"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/tokenimg/dai.svg"
+to = "/tokenimg/dai.svg"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/tokenimg/eth.png"
+to = "/tokenimg/eth.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/tokenimg/grt.webp"
+to = "/tokenimg/grt.webp"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/tokenimg/link.png"
+to = "/tokenimg/link.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/tokenimg/matic.webp"
+to = "/tokenimg/matic.webp"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/tokenimg/sushi.webp"
+to = "/tokenimg/sushi.webp"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/tokenimg/uni.png"
+to = "/tokenimg/uni.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/tokenimg/usdc.png"
+to = "/tokenimg/usdc.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/tokenimg/usdt.png"
+to = "/tokenimg/usdt.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/tokenimg/zrx.png"
+to = "/tokenimg/zrx.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/*"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+force = true
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/_next/data/UF5talY3zVY_-dHtYlGva/index.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/UF5talY3zVY_-dHtYlGva/balances/erc20.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/balances/erc20"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/UF5talY3zVY_-dHtYlGva/balances/nft.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/balances/nft"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/UF5talY3zVY_-dHtYlGva/buyusacoffee.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/buyusacoffee"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/UF5talY3zVY_-dHtYlGva/lottery/lottery30.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/lottery/lottery30"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/UF5talY3zVY_-dHtYlGva/lottery/lotteryday.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/lottery/lotteryday"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/UF5talY3zVY_-dHtYlGva/lottery/lotterymonth.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/lottery/lotterymonth"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/UF5talY3zVY_-dHtYlGva/lottery/lotteryweek.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/lottery/lotteryweek"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/UF5talY3zVY_-dHtYlGva/send/sendnativetoken.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/send/sendnativetoken"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/UF5talY3zVY_-dHtYlGva/send/sendtokens.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/send/sendtokens"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/UF5talY3zVY_-dHtYlGva/swap/swaptokens.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/swap/swaptokens"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/UF5talY3zVY_-dHtYlGva/transactions.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/transactions"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/UF5talY3zVY_-dHtYlGva/transfers/erc20.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/transfers/erc20"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/UF5talY3zVY_-dHtYlGva/transfers/nft.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/transfers/nft"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/*"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[context]
+
+  [context.production]
+
+    [context.production.environment]
+    NEXT_PRIVATE_TARGET = "server"
+
+    [context.production.functions]
+
+      [context.production.functions._ipx]
+      node_bundler = "nft"
+
+      [context.production.functions.___netlify-handler]
+      included_files = [
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*"
+      ]
+      external_node_modules = []
+      node_bundler = "nft"
+
+      [context.production.functions.___netlify-odb-handler]
+      included_files = [
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*"
+      ]
+      external_node_modules = []
+      node_bundler = "nft"
+
+      [context.production.functions."_api_*"]
+      included_files = [
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*"
+      ]
+      external_node_modules = []
+      node_bundler = "nft"
+
+    [context.production.build]
+
+      [context.production.build.environment]
+      NEXT_PRIVATE_TARGET = "server"
+
+  [context.master]
+
+    [context.master.environment]
+    NEXT_PRIVATE_TARGET = "server"
+
+    [context.master.functions]
+
+      [context.master.functions._ipx]
+      node_bundler = "nft"
+
+      [context.master.functions.___netlify-handler]
+      included_files = [
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*"
+      ]
+      external_node_modules = []
+      node_bundler = "nft"
+
+      [context.master.functions.___netlify-odb-handler]
+      included_files = [
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*"
+      ]
+      external_node_modules = []
+      node_bundler = "nft"
+
+      [context.master.functions."_api_*"]
+      included_files = [
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        "!node_modules/sharp/**/*"
+      ]
+      external_node_modules = []
+      node_bundler = "nft"
+
+    [context.master.build]
+
+      [context.master.build.environment]
+      NEXT_PRIVATE_TARGET = "server"

@@ -1,0 +1,6 @@
+{
+  "extends": "@phoenixweb3",
+  "rules": {
+    "no-console": "off"
+  }
+}
