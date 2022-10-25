@@ -12,7 +12,7 @@ const LotteryMonthPage: NextPage<ILotteryMonth> = (props) => {
     return (
       <Default pageName="30 mins Lottery">
         <VStack>
-          <Heading>Weekly Lottery</Heading>
+          <Heading>Monthly Lottery</Heading>
           <Text color="red.500">Please connect to Polygon Mumbai Testnet</Text>
         </VStack>
       </Default>
