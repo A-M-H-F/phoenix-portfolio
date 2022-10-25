@@ -20,7 +20,7 @@ const Home = () => {
         </ListItem>
         <ListItem>
           <ListIcon as={CheckCircleIcon} color="blue.500" />
-          Next.js Session
+          Next.js
         </ListItem>
         <ListItem>
           <ListIcon as={CheckCircleIcon} color="blue.500" />
